@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="maindiv">
       <h1>To do list</h1>
-      <input type="text" value={input} onChange={(e) =>setInput(e.target.value) } />
-      <button onClick={addTodo}>Add</button>
+      <input type="text" value={input} onChange={(e) =>setInput(e.target.value) } /> 
+      <button onClick={addTodo}>Add</button> 
       <ul>
         {task.map((todo, index) => (
           <li key={index}>
